@@ -1,0 +1,1 @@
+This repository records my progress in a mini course to understand how to use python to query data from a database. 
