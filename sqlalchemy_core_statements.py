@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 
-engine = create_engine("sqlite:///./books.db", echo=True, future=True)
+engine = create_engine("sqlite:///./data/books.db", echo=True, future=True)
 conn = engine.connect()
 # MetaData
 from sqlalchemy import MetaData, Table
